@@ -16,34 +16,11 @@
 
 # ADMINISTRATION
 
-JohnTheBastard = {
-::ALL::
-}
-
-Miomio = {
-::ALL::
-}
-
-AncientV25 = {
-::ALL::
-}
-
-P3N3B10L3NT0 = {
-::ALL::
-}
-
-Lokiki = {
-::ALL::
-}
-
-Frown = {
+iWuna = {
 ::ALL::
 }
 
 
-JamsMor = {
-::ALL::
-}
 
 # WHITELIST FOR THE SOVIET UNION
 
