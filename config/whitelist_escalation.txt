@@ -8,19 +8,18 @@
 # KEY = {
 # ::ALL::
 # }
-
-# EXAMPLE:
-# JamsMor = {
-# CCCP Retard
-# }
+# EXAMPLE
+JamsMor = {
+CCCP Pomoshnik Granatometchika
+CCCP Pulemetchik
+CCCP Strelok
+}
 
 # ADMINISTRATION
 
 iWuna = {
 ::ALL::
 }
-
-
 
 # WHITELIST FOR THE SOVIET UNION
 
@@ -446,6 +445,25 @@ CCCP Strelok
 }
 
 Corporal_Adrian = {
+CCCP Starshiy Strelok
+CCCP Radiotelefonist
+CCCP Granatometchik
+CCCP Pomoshnik Granatometchika
+CCCP Pulemetchik
+CCCP Snayper
+CCCP Sanitar
+CCCP Glavvrach
+CCCP HWS Gunner
+CCCP HWS Assistant
+CCCP Vzvodny Pulemetchik
+CCCP Zamkomandira Razvedotdeleniya
+CCCP Razvedchik-Radist
+CCCP Razvedchik-Snayper
+CCCP Razvedchik
+CCCP Strelok
+}
+
+JamsMor = {
 CCCP Starshiy Strelok
 CCCP Radiotelefonist
 CCCP Granatometchik

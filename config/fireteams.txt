@@ -1,13 +1,8 @@
-# FIRETEAM_FACTION:FIRETEAM_NAME
-# TYPE_OF_JOB
-# TYPE_OF_JOB
-# TYPE_OF_JOB
-# @END@
-
+# FIRETEAM_NAME:FIRETEAM_FACTION
+# TYPE_OF_JOB, TYPE_OF_JOB, ETC...
 # Faction Tags: bund, cccp, csla, usmc
-
 # Example:
-# cccp:Motostrelki
+# Motostrelki:cccp
 # /datum/job/escalation/cccp/rifleman
 # /datum/job/escalation/cccp/marksman
 # /datum/job/escalation/cccp/grenadier
@@ -15,7 +10,7 @@
 
 # WARPAC
 
-cccp:1.Otdeleniye
+1.Otdeleniye:cccp
 /datum/job/escalation/cccp/squadleader
 /datum/job/escalation/cccp/squadvice
 /datum/job/escalation/cccp/squadradio
@@ -27,7 +22,7 @@ cccp:1.Otdeleniye
 /datum/job/escalation/cccp/rifleman
 @END@
 
-cccp:2.Otdeleniye
+2.Otdeleniye:cccp
 /datum/job/escalation/cccp/squadleader
 /datum/job/escalation/cccp/squadvice
 /datum/job/escalation/cccp/squadradio
@@ -39,7 +34,7 @@ cccp:2.Otdeleniye
 /datum/job/escalation/cccp/rifleman
 @END@
 
-cccp:3.Otdeleniye
+3.Otdeleniye:cccp
 /datum/job/escalation/cccp/squadleader
 /datum/job/escalation/cccp/squadvice
 /datum/job/escalation/cccp/squadradio
@@ -51,19 +46,19 @@ cccp:3.Otdeleniye
 /datum/job/escalation/cccp/rifleman
 @END@
 
-cccp:1.OTV
+1.OTV:cccp
 /datum/job/escalation/cccp/hwscom
 /datum/job/escalation/cccp/hwsgun
 /datum/job/escalation/cccp/hwsass
 @END@
 
-cccp:2.OTV
+2.OTV:cccp
 /datum/job/escalation/cccp/hwscom
 /datum/job/escalation/cccp/hwsgun
 /datum/job/escalation/cccp/hwsass
 @END@
 
-cccp:Razvedka
+Razvedka:cccp
 /datum/job/escalation/cccp/reconcom
 /datum/job/escalation/cccp/reconcomdep
 /datum/job/escalation/cccp/reconmarks
@@ -72,7 +67,7 @@ cccp:Razvedka
 /datum/job/escalation/cccp/recon
 @END@
 
-csla:1.Cheta
+1.Cheta:csla
 /datum/job/escalation/csla/sergeant
 /datum/job/escalation/csla/subsergeant
 /datum/job/escalation/csla/gunner
@@ -84,7 +79,7 @@ csla:1.Cheta
 /datum/job/escalation/csla/rifleman
 @END@
 
-csla:2.Cheta
+2.Cheta:csla
 /datum/job/escalation/csla/sergeant
 /datum/job/escalation/csla/subsergeant
 /datum/job/escalation/csla/gunner
@@ -96,7 +91,7 @@ csla:2.Cheta
 /datum/job/escalation/csla/rifleman
 @END@
 
-csla:3.Cheta
+3.Cheta:csla
 /datum/job/escalation/csla/sergeant
 /datum/job/escalation/csla/subsergeant
 /datum/job/escalation/csla/gunner
@@ -111,7 +106,7 @@ csla:3.Cheta
 
 # NATO
 
-usmc:1.Squad
+1.Squad:usmc
 /datum/job/escalation/usmc/squadleader
 /datum/job/escalation/usmc/fireteamleader
 /datum/job/escalation/usmc/fireteamleader
@@ -125,7 +120,7 @@ usmc:1.Squad
 /datum/job/escalation/usmc/grunt
 @END@
 
-usmc:2.Squad
+2.Squad:usmc
 /datum/job/escalation/usmc/squadleader
 /datum/job/escalation/usmc/fireteamleader
 /datum/job/escalation/usmc/fireteamleader
@@ -139,7 +134,7 @@ usmc:2.Squad
 /datum/job/escalation/usmc/grunt
 @END@
 
-usmc:3.Squad
+3.Squad:usmc
 /datum/job/escalation/usmc/squadleader
 /datum/job/escalation/usmc/fireteamleader
 /datum/job/escalation/usmc/fireteamleader
@@ -153,19 +148,19 @@ usmc:3.Squad
 /datum/job/escalation/usmc/grunt
 @END@
 
-usmc:1.HWS
+1.HWS:usmc
 /datum/job/escalation/usmc/hwscom
 /datum/job/escalation/usmc/hwsgun
 /datum/job/escalation/usmc/hwsass
 @END@
 
-usmc:2.HWS
+2.HWS:usmc
 /datum/job/escalation/usmc/hwscom
 /datum/job/escalation/usmc/hwsgun
 /datum/job/escalation/usmc/hwsass
 @END@
 
-usmc:Assault
+Assault:usmc
 /datum/job/escalation/usmc/assaultcom
 /datum/job/escalation/usmc/assaultgunner
 /datum/job/escalation/usmc/assaultgunner
@@ -173,7 +168,7 @@ usmc:Assault
 /datum/job/escalation/usmc/assaultass
 @END@
 
-bund:1.Gruppe
+1.Gruppe:bund
 /datum/job/escalation/bund/squadleader
 /datum/job/escalation/bund/subsergeant
 /datum/job/escalation/bund/machinegunner
@@ -186,7 +181,7 @@ bund:1.Gruppe
 /datum/job/escalation/bund/grunt
 @END@
 
-bund:2.Gruppe
+2.Gruppe:bund
 /datum/job/escalation/bund/squadleader
 /datum/job/escalation/bund/subsergeant
 /datum/job/escalation/bund/machinegunner
@@ -199,7 +194,7 @@ bund:2.Gruppe
 /datum/job/escalation/bund/grunt
 @END@
 
-bund:3.Gruppe
+3.Gruppe:bund
 /datum/job/escalation/bund/squadleader
 /datum/job/escalation/bund/subsergeant
 /datum/job/escalation/bund/machinegunner
@@ -212,7 +207,7 @@ bund:3.Gruppe
 /datum/job/escalation/bund/grunt
 @END@
 
-bund:4.Gruppe
+4.Gruppe:bund
 /datum/job/escalation/bund/squadleader
 /datum/job/escalation/bund/subsergeant
 /datum/job/escalation/bund/machinegunner
